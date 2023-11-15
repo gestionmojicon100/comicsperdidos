@@ -1,13 +1,28 @@
 ---
 layout: page
-title: Credits & Contact
+title: Créditos y contacto
 permalink: '/credits/'
 ---
 
-Wax is a minimal computing ([minicomp](https://github.com/minicomp)) project led and maintained by [Marii Nyrop](https://marii.info/) and [Alex Gil](https://github.com/elotroalex).
+Este es un proyecto realizado en el marco de las celebraciones de los 100 años de la publicación de Mojicón de Adolfo Samper.
 
-It uses open source libraries and frameworks including [Jekyll](https://jekyllrb.com), [IIIF](http://iiif.io), [OpenSeaDragon](https://openseadragon.github.io/), and [ElasticLunr](http://elasticlunr.com/) and builds upon work by [Peter Binkley](https://github.com/pbinkley), [David Newbury](https://github.com/workergnome), and others.
+La primera etapa de este proyecto fue financiada bajo la convocatoria 
 
-We welcome and encourage contributibutions. Please get in touch, or [fork the project on GitHub](https://github.com/minicomp/wax). If you encounter any issue with the software, please [create an issue](https://github.com/minicomp/wax/issues) or find us in the **#minicomp-wax** channel within the [Code4Lib Slack](https://code4lib.slack.com). (Request an invite [here](https://docs.google.com/forms/d/e/1FAIpQLSeD77mBp0Y13mFePF8UmDwFrlbxNx3VttEjz_3dgglJeK-Zbg/viewform?c=0&w=1)!)
+Concepto e investigación:
 
-For more on working with Wax, visit our [documentation wiki](https://minicomp.github.io/wiki/wax/).
+Laura Valentina Álvarez y Pablo Guerra
+
+Construcción archivo digital y diseño web:
+
+Sergio Rodríguez Gómez
+
+
+Última actualización: 14/11/2023
+
+<a href="{{ '/img/LogoA99.png' | absolute_url }}">
+  <img src="{{ '/img/LogoA99.png' | absolute_url }}" alt="Logo Cómic Año 99"/>
+</a>
+
+<a href="{{ '/img/LogoComicsPerdidos.png' | absolute_url }}">
+  <img src="{{ '/img/LogoComicsPerdidos.png' | absolute_url }}" alt="Logo Club de los Cómics Perdidos"/>
+</a>

@@ -1,3 +1,22 @@
 gem update --system --no-document
 
 bundle exec jekyll serve --livereload --open-url --port 4000 --host 0.0.0.0
+
+
+LINUX
+
+sudo systemctl restart docker
+
+cd '/home/sergio/Documents/GitHub/test-wax'
+
+docker build -t minicomp/wax .
+
+docker run -it --rm -v ${PWD}:/wax --name wax -p 4000:4000 minicomp/wax bash
+
+gem update --system --no-document
+
+bundle update
+
+bundle exec rake --tasks
+
+bundle exec jekyll serve --host 0.0.0.0
