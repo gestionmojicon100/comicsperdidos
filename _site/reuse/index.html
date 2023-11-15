@@ -4,7 +4,7 @@
   <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>
-    Club de los Cómics Perdidos | Reuse the Collection
+    El Club de los Cómics Perdidos | Metadatos
   </title>
 
   <link rel='canonical' href='http://0.0.0.0:4000/comicsperdidos/reuse/'/>
@@ -16,11 +16,11 @@
 
 
   <body>
-    <time datetime='2023-11-15 02:36'></time>
+    <time datetime='2023-11-15 19:27'></time>
     <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
- <div class='wax-inline-container'>
+ <div class='wax-inline-container wax-header'>
     <a class='navbar-brand' href="http://0.0.0.0:4000/comicsperdidos/" title='Home'>
-      Club de los Cómics Perdidos
+      El Club de los Cómics Perdidos
     </a>
 
     <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#wax-header-navbar' aria-controls='wax-header-navbar' aria-expanded='false' aria-label='navigation'>
@@ -37,8 +37,19 @@
           
         
           
-            <li class='nav-item'>
-              <a class='nav-link' href='http://0.0.0.0:4000/comicsperdidos/collection/'>Colección</a>
+            <li class='nav-item dropdown'>
+              <a class='nav-link dropdown-toggle' href='#' id='wax-explorar-dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                Explorar
+              </a>
+              <div class='dropdown-menu' aria-labelledby='wax-explorar-dropdown'>
+                
+                  <a class='dropdown-item' href='http://0.0.0.0:4000/comicsperdidos/collection_author'>Por autor</a>
+                
+                  <a class='dropdown-item' href='http://0.0.0.0:4000/comicsperdidos/collection_date'>Por fecha</a>
+                
+                  <a class='dropdown-item' href='http://0.0.0.0:4000/comicsperdidos/collection_category'>Por categoría</a>
+                
+              </div>
             </li>
           
         
@@ -55,7 +66,7 @@
               </a>
               <div class='dropdown-menu' aria-labelledby='wax-muestras-dropdown'>
                 
-                  <a class='dropdown-item' href='http://0.0.0.0:4000/comicsperdidos/exhibits/a/'>Muestra B</a>
+                  <a class='dropdown-item' href='http://0.0.0.0:4000/comicsperdidos/exhibits/a/'>Muestra A</a>
                 
                   <a class='dropdown-item' href='http://0.0.0.0:4000/comicsperdidos/exhibits/b/'>Muestra B</a>
                 
@@ -74,23 +85,96 @@
     <div id='wax-main'>
       <div id='wax-content' class='wax-inline-container'>
         
-  <h2 class='page-title'>Reuse the Collection</h2>
+  <h2 class='page-title'>Metadatos</h2>
 
 
-<p>Wax is inspired by <a href="https://journal.code4lib.org/articles/13427">FAIR data principles</a>, and as such strives to make its collections findable, accessible, interoperable and reusable.</p>
-
-<p>The demo site comes with a specific <code class="language-plaintext highlighter-rouge">_include</code> called <code class="language-plaintext highlighter-rouge">interactive_metadata_table</code> to help you make pages like this one complete with interactive <a href="https://datatables.net/">DataTables</a> and downloadable CSVs of collection metadata.</p>
+<p>Aquí puedes acceder a los metadatos de la colección. Estos metadatos pueden usarse para proyectos de investigación en humanidades digitales.</p>
 
 <link rel="stylesheet" type="text/css" href="http://0.0.0.0:4000/comicsperdidos/assets/datatables/datatables.css" />
 
 <script type="text/javascript" src="http://0.0.0.0:4000/comicsperdidos/assets/datatables/datatables.min.js"></script>
 
-<table id="qatar-datatable" class="datatable display"></table>
+<table id="comics-datatable" class="datatable display"></table>
 <script>
   $(document).ready(function () {
-    $('#qatar-datatable').DataTable({
-      data: null,
-      columns: [],
+    $('#comics-datatable').DataTable({
+      data: [{"pid":"josegomezpesca","label":"Una enredada enfadosa o la pesca aparatosa","apellido":"GÓMEZ","numero":"137","nombre":"José","nombre_completo":"José Gómez","seudonimo":"Lápiz","anno":"1932","fecha":"1932-10-22","publicacion":"Cromos","volumen":"34","inicio":"7","ubicacion":"BNC","tipo":"Secuencia gráfica","extension":"1","formato":"Página","categoria":"Sátira política","publico":"General","order":"0","layout":"comic_item","collection":"comics","thumbnail":"/img/derivatives/iiif/images/josegomezpesca/full/250,/0/default.jpg","full":"/img/derivatives/iiif/images/josegomezpesca/full/1140,/0/default.jpg","manifest":"/img/derivatives/iiif/josegomezpesca/manifest.json","notas":""},{"pid":"josegomezjinete","label":"Maniobras militares del Perú o un Jinete rival de Belcebú","apellido":"GÓMEZ","numero":"139","nombre":"José","nombre_completo":"José Gómez","seudonimo":"Lápiz","anno":"1932","fecha":"1932-11-12","publicacion":"Cromos","volumen":"34","inicio":"7","ubicacion":"BNC","tipo":"Secuencia gráfica","extension":"1","formato":"Página","categoria":"Sátira política","publico":"General","order":"1","layout":"comic_item","collection":"comics","thumbnail":"/img/derivatives/iiif/images/josegomezjinete/full/250,/0/default.jpg","full":"/img/derivatives/iiif/images/josegomezjinete/full/1140,/0/default.jpg","manifest":"/img/derivatives/iiif/josegomezjinete/manifest.json","notas":"Actualidad internacional"},{"pid":"ricardorendonaviador","label":"El aviador Knox Martin","apellido":"RENDÓN","numero":"141","nombre":"Ricardo","nombre_completo":"Ricardo Rendón","seudonimo":"","anno":"1919","fecha":"1919-10-04","publicacion":"Cromos","volumen":"8","inicio":"211","ubicacion":"BNC","tipo":"Secuencia gráfica","extension":"0.5","formato":"Ilustraciones","categoria":"Sátira política","publico":"General","order":"2","layout":"comic_item","collection":"comics","thumbnail":"/img/derivatives/iiif/images/ricardorendonaviador/full/250,/0/default.jpg","full":"/img/derivatives/iiif/images/ricardorendonaviador/full/1140,/0/default.jpg","manifest":"/img/derivatives/iiif/ricardorendonaviador/manifest.json","notas":"Actualidad internacional"},{"pid":"ricardorendonveraneo","label":"La temporada de veraneo","apellido":"RENDÓN","numero":"143","nombre":"Ricardo","nombre_completo":"Ricardo Rendón","seudonimo":"","anno":"1920","fecha":"1920-01-31","publicacion":"Cromos","volumen":"9","inicio":"7","ubicacion":"BNC","tipo":"Protocómic","extension":"1","formato":"Página","categoria":"Vida cotidiana","publico":"General","order":"3","layout":"comic_item","collection":"comics","thumbnail":"/img/derivatives/iiif/images/ricardorendonveraneo/full/250,/0/default.jpg","full":"/img/derivatives/iiif/images/ricardorendonveraneo/full/1140,/0/default.jpg","manifest":"/img/derivatives/iiif/ricardorendonveraneo/manifest.json","notas":""},{"pid":"ricardorendonhipodromo","label":"En el hipódromo de la Merced","apellido":"RENDÓN","numero":"144","nombre":"Ricardo","nombre_completo":"Ricardo Rendón","seudonimo":"","anno":"1920","fecha":"1920-02-28","publicacion":"Cromos","volumen":"9","inicio":"101","ubicacion":"BNC","tipo":"Protocómic","extension":"1","formato":"Página","categoria":"Informativos","publico":"General","order":"4","layout":"comic_item","collection":"comics","thumbnail":"/img/derivatives/iiif/images/ricardorendonhipodromo/full/250,/0/default.jpg","full":"/img/derivatives/iiif/images/ricardorendonhipodromo/full/1140,/0/default.jpg","manifest":"/img/derivatives/iiif/ricardorendonhipodromo/manifest.json","notas":"Sección \"Nota Cómica\""},{"pid":"rinaldoscandrogliorenacuajo","label":"El renacuajo paseador","apellido":"SCANDROGLIO","numero":"146","nombre":"Rinaldo","nombre_completo":"Rinaldo Scandroglio","seudonimo":"","anno":"1933","fecha":"1933-11-04","publicacion":"Cromos","volumen":"36","inicio":"9","ubicacion":"BNC","tipo":"Secuencia gráfica","extension":"1","formato":"Página","categoria":"Literario","publico":"Infantil","order":"5","layout":"comic_item","collection":"comics","thumbnail":"/img/derivatives/iiif/images/rinaldoscandrogliorenacuajo/full/250,/0/default.jpg","full":"/img/derivatives/iiif/images/rinaldoscandrogliorenacuajo/full/1140,/0/default.jpg","manifest":"/img/derivatives/iiif/rinaldoscandrogliorenacuajo/manifest.json","notas":"Publicación especial dedicada a Rafael Pombo"},{"pid":"rinaldoscandrogliosimon","label":"Simón el bobito","apellido":"SCANDROGLIO","numero":"147","nombre":"Rinaldo","nombre_completo":"Rinaldo Scandroglio","seudonimo":"","anno":"1933","fecha":"1933-11-04","publicacion":"Cromos","volumen":"36","inicio":"9","ubicacion":"BNC","tipo":"Secuencia gráfica","extension":"1","formato":"Página","categoria":"Literario","publico":"Infantil","order":"6","layout":"comic_item","collection":"comics","thumbnail":"/img/derivatives/iiif/images/rinaldoscandrogliosimon/full/250,/0/default.jpg","full":"/img/derivatives/iiif/images/rinaldoscandrogliosimon/full/1140,/0/default.jpg","manifest":"/img/derivatives/iiif/rinaldoscandrogliosimon/manifest.json","notas":"Publicación especial dedicada a Rafael Pombo"},{"pid":"rinaldoscandroglioviejecita","label":"La pobre viejecita","apellido":"SCANDROGLIO","numero":"148","nombre":"Rinaldo","nombre_completo":"Rinaldo Scandroglio","seudonimo":"","anno":"1933","fecha":"1933-11-04","publicacion":"Cromos","volumen":"36","inicio":"9","ubicacion":"BNC","tipo":"Secuencia gráfica","extension":"1","formato":"Página","categoria":"Literario","publico":"Infantil","order":"7","layout":"comic_item","collection":"comics","thumbnail":"/img/derivatives/iiif/images/rinaldoscandroglioviejecita/full/250,/0/default.jpg","full":"/img/derivatives/iiif/images/rinaldoscandroglioviejecita/full/1140,/0/default.jpg","manifest":"/img/derivatives/iiif/rinaldoscandroglioviejecita/manifest.json","notas":"Publicación especial dedicada a Rafael Pombo"},{"pid":"rinaldoscandrogliogato","label":"El gato bandido","apellido":"SCANDROGLIO","numero":"149","nombre":"Rinaldo","nombre_completo":"Rinaldo Scandroglio","seudonimo":"","anno":"1933","fecha":"1933-11-04","publicacion":"Cromos","volumen":"36","inicio":"9","ubicacion":"BNC","tipo":"Secuencia gráfica","extension":"1","formato":"Página","categoria":"Literario","publico":"Infantil","order":"8","layout":"comic_item","collection":"comics","thumbnail":"/img/derivatives/iiif/images/rinaldoscandrogliogato/full/250,/0/default.jpg","full":"/img/derivatives/iiif/images/rinaldoscandrogliogato/full/1140,/0/default.jpg","manifest":"/img/derivatives/iiif/rinaldoscandrogliogato/manifest.json","notas":"Publicación especial dedicada a Rafael Pombo"}],
+      columns: [{
+      "title": "pid",
+      "data": "pid"
+    }, {
+      "title": "label",
+      "data": "label"
+    }, {
+      "title": "apellido",
+      "data": "apellido"
+    }, {
+      "title": "numero",
+      "data": "numero"
+    }, {
+      "title": "nombre",
+      "data": "nombre"
+    }, {
+      "title": "nombre_completo",
+      "data": "nombre_completo"
+    }, {
+      "title": "seudonimo",
+      "data": "seudonimo"
+    }, {
+      "title": "anno",
+      "data": "anno"
+    }, {
+      "title": "fecha",
+      "data": "fecha"
+    }, {
+      "title": "publicacion",
+      "data": "publicacion"
+    }, {
+      "title": "volumen",
+      "data": "volumen"
+    }, {
+      "title": "inicio",
+      "data": "inicio"
+    }, {
+      "title": "ubicacion",
+      "data": "ubicacion"
+    }, {
+      "title": "tipo",
+      "data": "tipo"
+    }, {
+      "title": "extension",
+      "data": "extension"
+    }, {
+      "title": "formato",
+      "data": "formato"
+    }, {
+      "title": "categoria",
+      "data": "categoria"
+    }, {
+      "title": "publico",
+      "data": "publico"
+    }, {
+      "title": "order",
+      "data": "order"
+    }, {
+      "title": "layout",
+      "data": "layout"
+    }, {
+      "title": "collection",
+      "data": "collection"
+    }, {
+      "title": "thumbnail",
+      "data": "thumbnail"
+    }, {
+      "title": "full",
+      "data": "full"
+    }, {
+      "title": "manifest",
+      "data": "manifest"
+    }, {
+      "title": "notas",
+      "data": "notas"
+    }],
       scrollY: 600,
       scrollX: 600,
       paging: false,
@@ -114,21 +198,26 @@
   <div class='wax-inline-container'>
     <div class='row'>
       <div class='col'>
-        <p class='footer-title'>Club de los Cómics Perdidos</p>
-        <p class='footer-description'>Minimal Exhibitions with Jekyll</p>
+        <p class='footer-title'>El Club de los Cómics Perdidos</p>
+        <p class='footer-description'>Archivo de cómic colombiano</p>
         <p class='footer-copyright'>
           
-          &copy; Mojicón Año 99, 2023<br>
+          &copy; Año 99 Cómic Colombiano, 2023<br>
           
           Construido con <a href='https://github.com/minicomp/wax/'>Minicomp/Wax</a>
         </p>
       </div>
       <div class='col'>
-        <p class='footer-title'>Enlaces</p>
+        <p class='footer-title'>Más información</p>
         <p class='footer-links'>
           
             <a href='http://0.0.0.0:4000/comicsperdidos/credits'>
               Créditos
+            </a>
+           / 
+          
+            <a href='http://0.0.0.0:4000/comicsperdidos/reuse'>
+              Metadatos
             </a>
           
           

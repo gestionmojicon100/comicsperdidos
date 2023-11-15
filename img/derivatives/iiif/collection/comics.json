@@ -1,0 +1,56 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/comics.json",
+  "@type": "sc:Collection",
+  "label": "comics",
+  "manifests": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/josegomezjinete/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "josegomezjinete"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/josegomezpesca/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "josegomezpesca"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ricardorendonaviador/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ricardorendonaviador"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ricardorendonhipodromo/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ricardorendonhipodromo"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ricardorendonveraneo/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ricardorendonveraneo"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/rinaldoscandrogliogato/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "rinaldoscandrogliogato"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/rinaldoscandrogliorenacuajo/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "rinaldoscandrogliorenacuajo"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/rinaldoscandrogliosimon/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "rinaldoscandrogliosimon"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/rinaldoscandroglioviejecita/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "rinaldoscandroglioviejecita"
+    }
+  ]
+}

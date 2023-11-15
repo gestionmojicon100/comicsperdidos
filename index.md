@@ -2,18 +2,20 @@
 layout: page
 show_title: false
 banner:
-  collection: test
-  pid: obj5
+  collection: comics
+  pid: josegomezjinete
   y: 100%
   clickable: yes
   height: '400px'
 ---
 
-__Wax__ is a [minimal computing](http://go-dh.github.io/mincomp/) project for producing digital exhibitions focused on longevity, low costs, and flexibility. Our underlying technology is made to learn and to teach, and can produce beautifully rendered, high-quality image collections and scholarly exhibits. To start using Wax, please see our [documentation](https://minicomp.github.io/wiki/#/wax/) for installation instructions and more.
+Ante la necesidad de más investigación sobre cómic en Colombia, este proyecto busca construir las bases de un archivo completo de las publicaciones de cómic colombiano de una manera que nos permita conocer qué se ha publicado, seguir los temas, los autores y las tendencias que han marcado nuestras viñetas y que este registro también incluya la producción actual. Así evitaremos que se vuelva a repetir la historia hasta ahora en la que muchos de los referentes quedan en el olvido por falta de rigurosidad en la investigación.
 
-The collection items in this demo are from The Museum of Islamic Art, Qatar, (courtesy of [WikiMedia](https://commons.wikimedia.org/wiki/Category:Google_Art_Project_works_in_The_Museum_of_Islamic_Art,_Qatar) and [Google Art Project](https://www.google.com/culturalinstitute/about/artproject/)) and The Qatar National Library (via [World Digital Library](https://www.wdl.org/en/)).
+Esta colección, además, se crea con la intención permitirle al público general y especializado consultar cómo nuestras viñetas han aportado versiones de nuestra sociedad: tanto de nuestros hitos históricos como de los detalles de la vida cotidiana del país.
 
-### Browse the Collection
+Este es el primer prototipo encaminado a tal fin, y contiene una muestra limitada pero potencialmente expandible, soportada en infraestructuras contemporáneas de archivo digital.
 
-#### By Item Type
-{% include collection_gallery.html facet_by='label' collection='test' %}
+### Navega la colección
+
+#### Por categoría
+{% include collection_gallery.html facet_by='categoria' collection='comics' %}

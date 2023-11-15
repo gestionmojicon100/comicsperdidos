@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/ricardorendonveraneo/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "ricardorendonveraneo",
+  "thumbnail": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/ricardorendonveraneo/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/sequence/ricardorendonveraneo.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/canvas/ricardorendonveraneo.json",
+          "label": "front",
+          "width": 2000,
+          "height": 2667,
+          "thumbnail": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/ricardorendonveraneo/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/annotation/ricardorendonveraneo.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/ricardorendonveraneo/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/ricardorendonveraneo",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2000,
+                "height": 2667
+              },
+              "on": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/canvas/ricardorendonveraneo.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/ricardorendonveraneo/full/full/0/default.jpg",
+  "fullwidth": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/ricardorendonveraneo/full/1140,/0/default.jpg"
+}

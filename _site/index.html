@@ -4,7 +4,7 @@
   <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>
-    Club de los Cómics Perdidos
+    El Club de los Cómics Perdidos
   </title>
 
   <link rel='canonical' href='http://0.0.0.0:4000/comicsperdidos/'/>
@@ -16,11 +16,11 @@
 
 
   <body>
-    <time datetime='2023-11-15 02:36'></time>
+    <time datetime='2023-11-15 19:27'></time>
     <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
- <div class='wax-inline-container'>
+ <div class='wax-inline-container wax-header'>
     <a class='navbar-brand' href="http://0.0.0.0:4000/comicsperdidos/" title='Home'>
-      Club de los Cómics Perdidos
+      El Club de los Cómics Perdidos
     </a>
 
     <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#wax-header-navbar' aria-controls='wax-header-navbar' aria-expanded='false' aria-label='navigation'>
@@ -37,8 +37,19 @@
           
         
           
-            <li class='nav-item'>
-              <a class='nav-link' href='http://0.0.0.0:4000/comicsperdidos/collection/'>Colección</a>
+            <li class='nav-item dropdown'>
+              <a class='nav-link dropdown-toggle' href='#' id='wax-explorar-dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                Explorar
+              </a>
+              <div class='dropdown-menu' aria-labelledby='wax-explorar-dropdown'>
+                
+                  <a class='dropdown-item' href='http://0.0.0.0:4000/comicsperdidos/collection_author'>Por autor</a>
+                
+                  <a class='dropdown-item' href='http://0.0.0.0:4000/comicsperdidos/collection_date'>Por fecha</a>
+                
+                  <a class='dropdown-item' href='http://0.0.0.0:4000/comicsperdidos/collection_category'>Por categoría</a>
+                
+              </div>
             </li>
           
         
@@ -55,7 +66,7 @@
               </a>
               <div class='dropdown-menu' aria-labelledby='wax-muestras-dropdown'>
                 
-                  <a class='dropdown-item' href='http://0.0.0.0:4000/comicsperdidos/exhibits/a/'>Muestra B</a>
+                  <a class='dropdown-item' href='http://0.0.0.0:4000/comicsperdidos/exhibits/a/'>Muestra A</a>
                 
                   <a class='dropdown-item' href='http://0.0.0.0:4000/comicsperdidos/exhibits/b/'>Muestra B</a>
                 
@@ -72,18 +83,18 @@
     
       
       <div class='wax-parallax full-width top-banner'>
-  <div class='parallax-image' style="background-image: url('http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/obj5/full/1140,/0/default.jpg');
+  <div class='parallax-image' style="background-image: url('http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/josegomezjinete/full/1140,/0/default.jpg');
   background-position: 0% 100%;
   
   cursor: pointer;
   
   
-  height: 400px !important;" onclick="window.location='http://0.0.0.0:4000/comicsperdidos/test/obj5/'; return false;"></div>
+  height: 400px !important;" onclick="window.location='http://0.0.0.0:4000/comicsperdidos/comics/josegomezjinete/'; return false;"></div>
 
   
   <div class='parallax-caption'>
     <div class='wax-inline-container'>
-      Imagen: <a href='http://0.0.0.0:4000/comicsperdidos/test/obj5/'>Baudruche: French comic strip - Desconocido</a>
+      Imagen: <a href='http://0.0.0.0:4000/comicsperdidos/comics/josegomezjinete/'>Maniobras militares del Perú o un Jinete rival de Belcebú - José Gómez</a>
     </div>
   </div>
   
@@ -95,52 +106,58 @@
       <div id='wax-content' class='wax-inline-container'>
         
 
-<p><strong>Wax</strong> is a <a href="http://go-dh.github.io/mincomp/">minimal computing</a> project for producing digital exhibitions focused on longevity, low costs, and flexibility. Our underlying technology is made to learn and to teach, and can produce beautifully rendered, high-quality image collections and scholarly exhibits. To start using Wax, please see our <a href="https://minicomp.github.io/wiki/#/wax/">documentation</a> for installation instructions and more.</p>
+<p>Ante la necesidad de más investigación sobre cómic en Colombia, este proyecto busca construir las bases de un archivo completo de las publicaciones de cómic colombiano de una manera que nos permita conocer qué se ha publicado, seguir los temas, los autores y las tendencias que han marcado nuestras viñetas y que este registro también incluya la producción actual. Así evitaremos que se vuelva a repetir la historia hasta ahora en la que muchos de los referentes quedan en el olvido por falta de rigurosidad en la investigación.</p>
 
-<p>The collection items in this demo are from The Museum of Islamic Art, Qatar, (courtesy of <a href="https://commons.wikimedia.org/wiki/Category:Google_Art_Project_works_in_The_Museum_of_Islamic_Art,_Qatar">WikiMedia</a> and <a href="https://www.google.com/culturalinstitute/about/artproject/">Google Art Project</a>) and The Qatar National Library (via <a href="https://www.wdl.org/en/">World Digital Library</a>).</p>
+<p>Esta colección, además, se crea con la intención permitirle al público general y especializado consultar cómo nuestras viñetas han aportado versiones de nuestra sociedad: tanto de nuestros hitos históricos como de los detalles de la vida cotidiana del país.</p>
 
-<h3 id="browse-the-collection">Browse the Collection</h3>
+<p>Este es el primer prototipo encaminado a tal fin, y contiene una muestra limitada pero potencialmente expandible, soportada en infraestructuras contemporáneas de archivo digital.</p>
 
-<h4 id="by-item-type">By Item Type</h4>
+<h3 id="navega-la-colección">Navega la colección</h3>
 
-<div id="facet-by-label-collection-test-container" class="wax-gallery-container full-width">
+<h4 id="por-categoría">Por categoría</h4>
+
+<div id="facet-by-categoria-collection-comics-container" class="wax-gallery-container full-width">
   <div class="wax-inline-container">
     
-    <div id="facet-by-label-collection-test-facet-buttons" class="facet-buttons"></div>
+    <div id="facet-by-categoria-collection-comics-facet-buttons" class="facet-buttons"></div>
     
-    <div id="wax-gallery-facet-by-label-collection-test" class="wax-gallery"></div>
+    <div id="wax-gallery-facet-by-categoria-collection-comics" class="wax-gallery"></div>
   </div>
 </div>
 
 <script type="text/javascript">
     $( document ).ready(function() {
-      let container = $('#facet-by-label-collection-test-container');
-      let gallery = $('#wax-gallery-facet-by-label-collection-test');
-      let buttonDiv = $('#facet-by-label-collection-test-facet-buttons');
+      let container = $('#facet-by-categoria-collection-comics-container');
+      let gallery = $('#wax-gallery-facet-by-categoria-collection-comics');
+      let buttonDiv = $('#facet-by-categoria-collection-comics-facet-buttons');
 
 
-      gallery.append("<div class='gallery-item jumping-comic all'><a href='http://0.0.0.0:4000/comicsperdidos/test/obj1/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg' alt='Jumping comic'/><div class='overlay'><p class='info'>Jumping comic</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item no-more-backaches-on-washday all'><a href='http://0.0.0.0:4000/comicsperdidos/test/obj2/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg' alt='No More Backaches on Washday...'/><div class='overlay'><p class='info'>No More Backaches on Washday...</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item krazy-kat all'><a href='http://0.0.0.0:4000/comicsperdidos/test/obj3/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/obj3/full/250,/0/default.jpg' alt='Krazy Kat'/><div class='overlay'><p class='info'>Krazy Kat</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item blade-runner-marvel-comics-adaptation all'><a href='http://0.0.0.0:4000/comicsperdidos/test/obj4/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/obj4/full/250,/0/default.jpg' alt='Blade Runner. Marvel comics adaptation'/><div class='overlay'><p class='info'>Blade Runner. Marvel comics adaptation</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item baudruche-french-comic-strip all'><a href='http://0.0.0.0:4000/comicsperdidos/test/obj5/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/obj5/full/250,/0/default.jpg' alt='Baudruche: French comic strip'/><div class='overlay'><p class='info'>Baudruche: French comic strip</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item sátira-política all'><a href='http://0.0.0.0:4000/comicsperdidos/comics/josegomezjinete/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/josegomezjinete/full/250,/0/default.jpg' alt='Maniobras militares del Perú o un Jinete rival de Belcebú'/><div class='overlay'><p class='info'>Maniobras militares del Perú o un Jinete rival de Belcebú</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item sátira-política all'><a href='http://0.0.0.0:4000/comicsperdidos/comics/josegomezpesca/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/josegomezpesca/full/250,/0/default.jpg' alt='Una enredada enfadosa o la pesca aparatosa'/><div class='overlay'><p class='info'>Una enredada enfadosa o la pesca aparatosa</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item sátira-política all'><a href='http://0.0.0.0:4000/comicsperdidos/comics/ricardorendonaviador/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/ricardorendonaviador/full/250,/0/default.jpg' alt='El aviador Knox Martin'/><div class='overlay'><p class='info'>El aviador Knox Martin</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item informativos all'><a href='http://0.0.0.0:4000/comicsperdidos/comics/ricardorendonhipodromo/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/ricardorendonhipodromo/full/250,/0/default.jpg' alt='En el hipódromo de la Merced'/><div class='overlay'><p class='info'>En el hipódromo de la Merced</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item vida-cotidiana all'><a href='http://0.0.0.0:4000/comicsperdidos/comics/ricardorendonveraneo/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/ricardorendonveraneo/full/250,/0/default.jpg' alt='La temporada de veraneo'/><div class='overlay'><p class='info'>La temporada de veraneo</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item literario all'><a href='http://0.0.0.0:4000/comicsperdidos/comics/rinaldoscandrogliogato/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/rinaldoscandrogliogato/full/250,/0/default.jpg' alt='El gato bandido'/><div class='overlay'><p class='info'>El gato bandido</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item literario all'><a href='http://0.0.0.0:4000/comicsperdidos/comics/rinaldoscandrogliorenacuajo/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/rinaldoscandrogliorenacuajo/full/250,/0/default.jpg' alt='El renacuajo paseador'/><div class='overlay'><p class='info'>El renacuajo paseador</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item literario all'><a href='http://0.0.0.0:4000/comicsperdidos/comics/rinaldoscandrogliosimon/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/rinaldoscandrogliosimon/full/250,/0/default.jpg' alt='Simón el bobito'/><div class='overlay'><p class='info'>Simón el bobito</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item literario all'><a href='http://0.0.0.0:4000/comicsperdidos/comics/rinaldoscandroglioviejecita/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/rinaldoscandroglioviejecita/full/250,/0/default.jpg' alt='La pobre viejecita'/><div class='overlay'><p class='info'>La pobre viejecita</p></div></div></a></div>");
       
 
       
-        var facets = Array.from(new Set(['jumping-comic', 'no-more-backaches-on-washday', 'krazy-kat', 'blade-runner-marvel-comics-adaptation', 'baudruche-french-comic-strip']));
-        buttonDiv.append("<button class='btn facet active' data-filter='all'>show all</button>");
+        var facets = Array.from(new Set(['sátira-política', 'sátira-política', 'sátira-política', 'informativos', 'vida-cotidiana', 'literario', 'literario', 'literario', 'literario']));
+        buttonDiv.append("<button class='btn facet active' data-filter='all'>Mostrar todos</button>");
 
         for (i in facets) {
           buttonDiv.append(`<button class='btn facet' data-filter='${facets[i]}'>${facets[i]}</button>`);
         }
 
         $(document).ready(function(){
-          $("#facet-by-label-collection-test-container .facet").click(function(){
+          $("#facet-by-categoria-collection-comics-container .facet").click(function(){
             var filterValue = $(this).attr('data-filter');
-            $('#facet-by-label-collection-test-container .facet').removeClass('active');
+            $('#facet-by-categoria-collection-comics-container .facet').removeClass('active');
             $(this).addClass('active');
-            if(filterValue == 'all') { $('#facet-by-label-collection-test-container .all').show('slow'); }
-            else { $('#facet-by-label-collection-test-container .all').hide('slow'); $(`.${filterValue}`).show('slow'); }
+            if(filterValue == 'all') { $('#facet-by-categoria-collection-comics-container .all').show('slow'); }
+            else { $('#facet-by-categoria-collection-comics-container .all').hide('slow'); $(`.${filterValue}`).show('slow'); }
           });
         });
       
@@ -156,21 +173,26 @@
   <div class='wax-inline-container'>
     <div class='row'>
       <div class='col'>
-        <p class='footer-title'>Club de los Cómics Perdidos</p>
-        <p class='footer-description'>Minimal Exhibitions with Jekyll</p>
+        <p class='footer-title'>El Club de los Cómics Perdidos</p>
+        <p class='footer-description'>Archivo de cómic colombiano</p>
         <p class='footer-copyright'>
           
-          &copy; Mojicón Año 99, 2023<br>
+          &copy; Año 99 Cómic Colombiano, 2023<br>
           
           Construido con <a href='https://github.com/minicomp/wax/'>Minicomp/Wax</a>
         </p>
       </div>
       <div class='col'>
-        <p class='footer-title'>Enlaces</p>
+        <p class='footer-title'>Más información</p>
         <p class='footer-links'>
           
             <a href='http://0.0.0.0:4000/comicsperdidos/credits'>
               Créditos
+            </a>
+           / 
+          
+            <a href='http://0.0.0.0:4000/comicsperdidos/reuse'>
+              Metadatos
             </a>
           
           

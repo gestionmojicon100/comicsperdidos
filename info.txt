@@ -2,6 +2,21 @@ gem update --system --no-document
 
 bundle exec jekyll serve --livereload --open-url --port 4000 --host 0.0.0.0
 
+docker run  -it --rm --platform linux/amd64 -v ${PWD}:/wax --name wax -p 4000:4000 minicomp/wax bash // LINUX NORMAL
+
+docker run  -it --rm --platform linux/arm64/v8 -v ${PWD}:/wax --name wax -p 4000:4000 minicomp/wax bash // APPLE SILICON
+
+TASKS
+
+bundle exec rake wax:clobber comics
+
+bundle exec rake wax:derivatives:iiif comics
+
+bundle exec rake wax:pages comics
+
+bundle exec rake wax:search main
+
+bundle exec jekyll serve --host 0.0.0.0
 
 LINUX
 
@@ -28,3 +43,10 @@ git add .
 git commit -m message
 
 git push origin
+
+GOOGLE SHEETS
+=DEC2HEX((NOW()-DATE(1970,1,1)+time(6,0,0))*86400) & "-" & DEC2HEX(RANDBETWEEN(0, 4294967295), 8)
+
+function UUID() {
+  return Utilities.getUuid();
+}

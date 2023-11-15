@@ -17,11 +17,11 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Club de los Cómics Perdidos'
-description:      'Minimal Exhibitions with Jekyll'
+title:            'El Club de los Cómics Perdidos'
+description:      'Archivo de cómic colombiano'
 url:              'https://gestionmojicon100.github.io'
 baseurl:          '/comicsperdidos'
-copyright:        'Mojicón Año 99, 2023'
+copyright:        'Año 99 Cómic Colombiano, 2023'
 logo:             '/assets/LogoA99.png'
 default_thumb:    '/assets/LogoA99.png'
 
@@ -59,13 +59,13 @@ kramdown:
 collections:
   exhibits:
     output: true
-  test: # name of collection
+  comics: # name of collection
     output: true # makes sure pages are output as html files
-    layout: 'test_item' # the layout for the pages to use
+    layout: 'comic_item' # the layout for the pages to use
     metadata:
-      source: 'test.csv' # path to the metadata file within `_data`
+      source: 'comics.csv' # path to the metadata file within `_data`
     images:
-      source: 'raw_images/test' # path to the directory of images within `_data`
+      source: 'raw_images/comics' # path to the directory of images within `_data`
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
@@ -79,14 +79,11 @@ search:
   main:
     index: '/search/index.json' # file the index will get written to
     collections:
-      test:
+      comics:
         content: false # whether or not to index page content
         fields: # the metadata fields to index
           - label
-          - author
-          - description
-          - year
-          - categories
+          - nombre_completo
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
@@ -98,13 +95,19 @@ search:
 menu:
   - label: 'Acerca'
     link: '/about/'
-  - label: 'Colección'
-    link: '/collection/'
+  - label: 'Explorar'
+    sub:
+      - label: 'Por autor'
+        link: 'collection_author'
+      - label: 'Por fecha'
+        link: 'collection_date'
+      - label: 'Por categoría'
+        link: 'collection_category'
   - label: 'Buscador'
     link: '/search/'
   - label: 'Muestras'
     sub:
-      - label: 'Muestra B'
+      - label: 'Muestra A'
         link: '/exhibits/a/'
       - label: 'Muestra B'
         link: '/exhibits/b/'
@@ -118,6 +121,8 @@ footer:
   links:
     - label: 'Créditos'
       link: '/credits'
+    - label: 'Metadatos'
+      link: '/reuse'
   logos:
     - label: 'A99'
       img: '/img/LogoA99.png'

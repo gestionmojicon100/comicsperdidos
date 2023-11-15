@@ -1,0 +1,53 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/collection/comics.json",
+  "@type": "sc:Collection",
+  "label": "comics",
+  "manifests": [
+    {
+      "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/josegomezjinete/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "josegomezjinete"
+    },
+    {
+      "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/josegomezpesca/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "josegomezpesca"
+    },
+    {
+      "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/ricardorendonaviador/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ricardorendonaviador"
+    },
+    {
+      "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/ricardorendonhipodromo/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ricardorendonhipodromo"
+    },
+    {
+      "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/ricardorendonveraneo/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ricardorendonveraneo"
+    },
+    {
+      "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/rinaldoscandrogliogato/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "rinaldoscandrogliogato"
+    },
+    {
+      "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/rinaldoscandrogliorenacuajo/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "rinaldoscandrogliorenacuajo"
+    },
+    {
+      "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/rinaldoscandrogliosimon/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "rinaldoscandrogliosimon"
+    },
+    {
+      "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/rinaldoscandroglioviejecita/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "rinaldoscandroglioviejecita"
+    }
+  ]
+}

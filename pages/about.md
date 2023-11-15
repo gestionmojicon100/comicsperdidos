@@ -10,4 +10,9 @@ Esta colección, además, se crea con la intención permitirle al público gener
 
 Este es el primer prototipo encaminado a tal fin, y contiene una muestra limitada pero potencialmente expandible, soportada en infraestructuras contemporáneas de archivo digital.
 
-Te invitamos a navegar la colección y a explorar la amplia historia del cómic en Colombia.
+Te invitamos a <a href="../collection">navegar la colección</a> y a explorar la amplia historia del cómic en Colombia.
+
+<div class="side-by-side">
+  <img src="{{ '/img/LogoA99.png' | absolute_url }}" alt="Logo Cómic Año 99"/>
+  <img src="{{ '/img/LogoComicsPerdidos.png' | absolute_url }}" alt="Logo Club de los Cómics Perdidos"/>
+</div>
