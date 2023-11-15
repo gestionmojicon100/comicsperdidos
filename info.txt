@@ -20,3 +20,11 @@ bundle update
 bundle exec rake --tasks
 
 bundle exec jekyll serve --host 0.0.0.0
+
+GIT
+
+git add .
+
+git commit -m message
+
+git push origin
