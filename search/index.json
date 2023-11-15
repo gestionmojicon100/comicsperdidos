@@ -1,0 +1,65 @@
+---
+layout: none
+---
+[
+  {
+    "pid": "obj5",
+    "label": "Baudruche: French comic strip",
+    "author": "Desconocido",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    "year": "1940",
+    "categories": "catb",
+    "collection": "test",
+    "thumbnail": "/img/derivatives/iiif/images/obj5/full/250,/0/default.jpg",
+    "permalink": "/test/obj5",
+    "lunr_id": 0
+  },
+  {
+    "pid": "obj1",
+    "label": "Jumping comic",
+    "author": "Deforge, Michael",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    "year": "2014",
+    "categories": "cata",
+    "collection": "test",
+    "thumbnail": "/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg",
+    "permalink": "/test/obj1",
+    "lunr_id": 1
+  },
+  {
+    "pid": "obj2",
+    "label": "No More Backaches on Washday...",
+    "author": "Dorne, Albert",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    "year": "1932",
+    "categories": "catb",
+    "collection": "test",
+    "thumbnail": "/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg",
+    "permalink": "/test/obj2",
+    "lunr_id": 2
+  },
+  {
+    "pid": "obj3",
+    "label": "Krazy Kat",
+    "author": "Sterret, Cliff",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    "year": "1938",
+    "categories": "catc",
+    "collection": "test",
+    "thumbnail": "/img/derivatives/iiif/images/obj3/full/250,/0/default.jpg",
+    "permalink": "/test/obj3",
+    "lunr_id": 3
+  },
+  {
+    "pid": "obj4",
+    "label": "Blade Runner. Marvel comics adaptation",
+    "author": "Goodwin, Archie",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    "year": "1982",
+    "categories": "cata",
+    "collection": "test",
+    "thumbnail": "/img/derivatives/iiif/images/obj4/full/250,/0/default.jpg",
+    "permalink": "/test/obj4",
+    "lunr_id": 4
+  }
+]
