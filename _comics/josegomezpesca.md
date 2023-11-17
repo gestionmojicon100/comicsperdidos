@@ -17,7 +17,7 @@ extension: '1'
 formato: Página
 categoria: Sátira política
 publico: General
-order: '0'
+order: '00'
 layout: comic_item
 collection: comics
 thumbnail: "/img/derivatives/iiif/images/josegomezpesca/full/250,/0/default.jpg"

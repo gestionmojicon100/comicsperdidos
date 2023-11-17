@@ -107,10 +107,8 @@ menu:
     link: '/search/'
   - label: 'Muestras'
     sub:
-      - label: 'Muestra A'
-        link: '/exhibits/a/'
-      - label: 'Muestra B'
-        link: '/exhibits/b/'
+      - label: 'Personajes'
+        link: '/exhibits/personajes/'
 
 # --------------------------------------------------------------
 # SITE FOOTER SETTINGS

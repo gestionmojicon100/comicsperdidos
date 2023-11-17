@@ -8,6 +8,21 @@ layout: none
   "label": "comics",
   "manifests": [
     {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/adolfosampermojicon/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "adolfosampermojicon"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/ernestofrancocopetin/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ernestofrancocopetin"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/josegomezescenasdelajirapresidencial/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "josegomezescenasdelajirapresidencial"
+    },
+    {
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/josegomezjinete/manifest.json",
       "@type": "sc:Manifest",
       "label": "josegomezjinete"
@@ -51,6 +66,11 @@ layout: none
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/rinaldoscandroglioviejecita/manifest.json",
       "@type": "sc:Manifest",
       "label": "rinaldoscandroglioviejecita"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/victoriafrancopirulita/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "victoriafrancopirulita"
     }
   ]
 }

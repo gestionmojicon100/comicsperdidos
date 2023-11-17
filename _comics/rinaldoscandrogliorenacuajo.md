@@ -16,7 +16,7 @@ extension: '1'
 formato: Página
 categoria: Literario
 publico: Infantil
-order: '5'
+order: '05'
 layout: comic_item
 collection: comics
 thumbnail: "/img/derivatives/iiif/images/rinaldoscandrogliorenacuajo/full/250,/0/default.jpg"

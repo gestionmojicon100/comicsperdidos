@@ -16,7 +16,7 @@ extension: '1'
 formato: Página
 categoria: Literario
 publico: Infantil
-order: '6'
+order: '06'
 layout: comic_item
 collection: comics
 thumbnail: "/img/derivatives/iiif/images/rinaldoscandrogliosimon/full/250,/0/default.jpg"

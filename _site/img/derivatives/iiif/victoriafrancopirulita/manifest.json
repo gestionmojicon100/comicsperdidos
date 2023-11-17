@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/victoriafrancopirulita/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "victoriafrancopirulita",
+  "thumbnail": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/victoriafrancopirulita/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/sequence/victoriafrancopirulita.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/canvas/victoriafrancopirulita.json",
+          "label": "front",
+          "width": 1400,
+          "height": 552,
+          "thumbnail": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/victoriafrancopirulita/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/annotation/victoriafrancopirulita.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/victoriafrancopirulita/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/victoriafrancopirulita",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 700,
+                "height": 276
+              },
+              "on": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/canvas/victoriafrancopirulita.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/victoriafrancopirulita/full/full/0/default.jpg",
+  "fullwidth": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/victoriafrancopirulita/full/1140,/0/default.jpg"
+}

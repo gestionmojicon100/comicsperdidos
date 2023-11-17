@@ -5,6 +5,21 @@
   "label": "comics",
   "manifests": [
     {
+      "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/adolfosampermojicon/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "adolfosampermojicon"
+    },
+    {
+      "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/ernestofrancocopetin/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "ernestofrancocopetin"
+    },
+    {
+      "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/josegomezescenasdelajirapresidencial/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "josegomezescenasdelajirapresidencial"
+    },
+    {
       "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/josegomezjinete/manifest.json",
       "@type": "sc:Manifest",
       "label": "josegomezjinete"
@@ -48,6 +63,11 @@
       "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/rinaldoscandroglioviejecita/manifest.json",
       "@type": "sc:Manifest",
       "label": "rinaldoscandroglioviejecita"
+    },
+    {
+      "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/victoriafrancopirulita/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "victoriafrancopirulita"
     }
   ]
 }

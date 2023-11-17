@@ -16,7 +16,7 @@ extension: '1'
 formato: Página
 categoria: Literario
 publico: Infantil
-order: '8'
+order: '08'
 layout: comic_item
 collection: comics
 thumbnail: "/img/derivatives/iiif/images/rinaldoscandrogliogato/full/250,/0/default.jpg"

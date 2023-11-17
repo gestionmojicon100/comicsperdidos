@@ -16,7 +16,7 @@ extension: '1'
 formato: Página
 categoria: Vida cotidiana
 publico: General
-order: '3'
+order: '03'
 layout: comic_item
 collection: comics
 thumbnail: "/img/derivatives/iiif/images/ricardorendonveraneo/full/250,/0/default.jpg"

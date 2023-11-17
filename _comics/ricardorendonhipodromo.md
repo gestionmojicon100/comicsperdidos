@@ -16,7 +16,7 @@ extension: '1'
 formato: Página
 categoria: Informativos
 publico: General
-order: '4'
+order: '04'
 layout: comic_item
 collection: comics
 thumbnail: "/img/derivatives/iiif/images/ricardorendonhipodromo/full/250,/0/default.jpg"

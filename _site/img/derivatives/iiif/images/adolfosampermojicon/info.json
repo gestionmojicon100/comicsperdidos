@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "http://0.0.0.0:4000/comicsperdidos/img/derivatives/iiif/images/adolfosampermojicon",
+  "protocol": "http://iiif.io/api/image",
+  "width": 1800,
+  "height": 3200,
+  "sizes": [
+    {
+      "width": 1800,
+      "height": 3200
+    },
+    {
+      "width": 250,
+      "height": 444
+    },
+    {
+      "width": 1140,
+      "height": 2027
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

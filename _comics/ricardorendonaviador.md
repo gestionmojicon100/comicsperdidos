@@ -16,7 +16,7 @@ extension: '0.5'
 formato: Ilustraciones
 categoria: Sátira política
 publico: General
-order: '2'
+order: '02'
 layout: comic_item
 collection: comics
 thumbnail: "/img/derivatives/iiif/images/ricardorendonaviador/full/250,/0/default.jpg"

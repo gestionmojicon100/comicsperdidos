@@ -16,7 +16,7 @@ extension: '1'
 formato: Página
 categoria: Literario
 publico: Infantil
-order: '7'
+order: '07'
 layout: comic_item
 collection: comics
 thumbnail: "/img/derivatives/iiif/images/rinaldoscandroglioviejecita/full/250,/0/default.jpg"

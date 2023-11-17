@@ -1,12 +1,39 @@
 [
   {
+    "pid": "adolfosampermojicon",
+    "label": "Mojicón",
+    "nombre_completo": "Adolfo Samper",
+    "collection": "comics",
+    "thumbnail": "/img/derivatives/iiif/images/adolfosampermojicon/full/250,/0/default.jpg",
+    "permalink": "/comics/adolfosampermojicon",
+    "lunr_id": 0
+  },
+  {
+    "pid": "ernestofrancocopetin",
+    "label": "Copetín",
+    "nombre_completo": "Ernesto Franco",
+    "collection": "comics",
+    "thumbnail": "/img/derivatives/iiif/images/ernestofrancocopetin/full/250,/0/default.jpg",
+    "permalink": "/comics/ernestofrancocopetin",
+    "lunr_id": 1
+  },
+  {
+    "pid": "josegomezescenasdelajirapresidencial",
+    "label": "Escenas de la jira presidencial",
+    "nombre_completo": "José Gómez",
+    "collection": "comics",
+    "thumbnail": "/img/derivatives/iiif/images/josegomezescenasdelajirapresidencial/full/250,/0/default.jpg",
+    "permalink": "/comics/josegomezescenasdelajirapresidencial",
+    "lunr_id": 2
+  },
+  {
     "pid": "josegomezjinete",
     "label": "Maniobras militares del Perú o un Jinete rival de Belcebú",
     "nombre_completo": "José Gómez",
     "collection": "comics",
     "thumbnail": "/img/derivatives/iiif/images/josegomezjinete/full/250,/0/default.jpg",
     "permalink": "/comics/josegomezjinete",
-    "lunr_id": 0
+    "lunr_id": 3
   },
   {
     "pid": "josegomezpesca",
@@ -15,7 +42,7 @@
     "collection": "comics",
     "thumbnail": "/img/derivatives/iiif/images/josegomezpesca/full/250,/0/default.jpg",
     "permalink": "/comics/josegomezpesca",
-    "lunr_id": 1
+    "lunr_id": 4
   },
   {
     "pid": "ricardorendonaviador",
@@ -24,7 +51,7 @@
     "collection": "comics",
     "thumbnail": "/img/derivatives/iiif/images/ricardorendonaviador/full/250,/0/default.jpg",
     "permalink": "/comics/ricardorendonaviador",
-    "lunr_id": 2
+    "lunr_id": 5
   },
   {
     "pid": "ricardorendonhipodromo",
@@ -33,7 +60,7 @@
     "collection": "comics",
     "thumbnail": "/img/derivatives/iiif/images/ricardorendonhipodromo/full/250,/0/default.jpg",
     "permalink": "/comics/ricardorendonhipodromo",
-    "lunr_id": 3
+    "lunr_id": 6
   },
   {
     "pid": "ricardorendonveraneo",
@@ -42,7 +69,7 @@
     "collection": "comics",
     "thumbnail": "/img/derivatives/iiif/images/ricardorendonveraneo/full/250,/0/default.jpg",
     "permalink": "/comics/ricardorendonveraneo",
-    "lunr_id": 4
+    "lunr_id": 7
   },
   {
     "pid": "rinaldoscandrogliogato",
@@ -51,7 +78,7 @@
     "collection": "comics",
     "thumbnail": "/img/derivatives/iiif/images/rinaldoscandrogliogato/full/250,/0/default.jpg",
     "permalink": "/comics/rinaldoscandrogliogato",
-    "lunr_id": 5
+    "lunr_id": 8
   },
   {
     "pid": "rinaldoscandrogliorenacuajo",
@@ -60,7 +87,7 @@
     "collection": "comics",
     "thumbnail": "/img/derivatives/iiif/images/rinaldoscandrogliorenacuajo/full/250,/0/default.jpg",
     "permalink": "/comics/rinaldoscandrogliorenacuajo",
-    "lunr_id": 6
+    "lunr_id": 9
   },
   {
     "pid": "rinaldoscandrogliosimon",
@@ -69,7 +96,7 @@
     "collection": "comics",
     "thumbnail": "/img/derivatives/iiif/images/rinaldoscandrogliosimon/full/250,/0/default.jpg",
     "permalink": "/comics/rinaldoscandrogliosimon",
-    "lunr_id": 7
+    "lunr_id": 10
   },
   {
     "pid": "rinaldoscandroglioviejecita",
@@ -78,6 +105,15 @@
     "collection": "comics",
     "thumbnail": "/img/derivatives/iiif/images/rinaldoscandroglioviejecita/full/250,/0/default.jpg",
     "permalink": "/comics/rinaldoscandroglioviejecita",
-    "lunr_id": 8
+    "lunr_id": 11
+  },
+  {
+    "pid": "victoriafrancopirulita",
+    "label": "Pirulita",
+    "nombre_completo": "Victoria Franco",
+    "collection": "comics",
+    "thumbnail": "/img/derivatives/iiif/images/victoriafrancopirulita/full/250,/0/default.jpg",
+    "permalink": "/comics/victoriafrancopirulita",
+    "lunr_id": 12
   }
 ]

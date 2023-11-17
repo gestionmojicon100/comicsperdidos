@@ -17,7 +17,7 @@ extension: '1'
 formato: Página
 categoria: Sátira política
 publico: General
-order: '1'
+order: '01'
 layout: comic_item
 collection: comics
 thumbnail: "/img/derivatives/iiif/images/josegomezjinete/full/250,/0/default.jpg"
